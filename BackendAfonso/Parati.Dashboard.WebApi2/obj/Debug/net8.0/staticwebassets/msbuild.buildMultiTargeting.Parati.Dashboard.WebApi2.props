@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Parati.Dashboard.WebApi2.props" />
+</Project>

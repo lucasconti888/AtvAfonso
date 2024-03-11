@@ -1,0 +1,223 @@
+
+
+.slide-left-enter {
+    animation: slideLeftEnter 300ms forwards;
+  }
+  
+  .fade-out-leave {
+    animation: fadeOutLeave 300ms forwards;
+  }
+
+  @keyframes fadeOutLeave {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+  
+
+.slide-right {
+    animation-name: slideRight;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(16rem);
+    }
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .text1 {
+    font-size:2rem;
+    color: #2B3674;
+    font-weight: 600;
+  }
+  .text2 {
+    color: #A3AED0;
+    margin-top:1rem;
+  }
+.row {
+  /* display: flex !important; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+ 
+.content {
+  display: grid;
+  /* grid-template-columns: 75% 25%; */
+}
+.tabels {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: 15rem;
+  /* width: 100vw; */
+}
+.visao-geral {
+  /* row-gap: 2rem; */
+  display: flex;
+  flex-direction: column;
+  gap:2rem
+}
+.card-title {
+  padding: 0 1rem 2rem 1rem;
+  font-size:medium
+
+}
+.card-full {
+  background-color: white;
+  border-radius: 1rem;
+  padding:1rem;
+}
+
+.card-full:hover {
+  background-color: white;
+  border-radius: 1rem;
+  border: 2px solid rgb(197, 197, 197);
+  padding:1rem;
+}
+
+
+.card:hover {
+  background-color: white;
+  border-radius: 1rem;
+  padding:1rem;
+  width: 100%;
+  border: 2px solid rgb(197, 197, 197);
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  padding:1rem;
+  width: 100%;
+}
+.card-small {
+  background-color: white;
+  border-radius: 1rem;
+  padding:1rem;
+  max-width: 16rem;
+}
+
+.card-small:hover {
+  background-color: white;
+  border-radius: 1rem;
+  padding:1rem;
+  max-width: 16rem;
+  border: 2px solid rgb(197, 197, 197);
+
+  scale: 1.1;
+}
+.card-nota {
+  padding:10% 0 0 20%;
+  font-weight: 600;
+  color:rgb(120, 120, 120);
+  font-size: 5rem;
+}
+
+.text-left {
+  text-align: left;
+  font-size: medium;
+  margin-bottom: 2rem;
+}
+/* LEFT CONTENT */
+
+.left-content {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  background: #f6f7fb;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+/* LEFT BOTTOM */
+
+.left-bottom {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  gap: 40px;
+}
+
+
+.cards {
+    display: flex; 
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.simple-button {
+    height: 100%;
+}
+
+.focus {
+  border: 1px solid black; 
+}
+
+.simple-card .hidden {
+    margin: 20px 20px;
+    width: 15rem;
+    height: 10rem;
+    opacity: 0;
+}
+
+.simple-card {
+    margin: 20px 20px;
+    width: 15rem;
+    height: 5rem;
+    transition: opacity 0.5s ease;
+    border-radius: 1.5rem;
+}
+  
+  /* LEFT BOTTOM */
+  
+  .left-bottom {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 40px;
+  }
+
+.card-category {
+  color: white;
+  font-size: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.card-header-dif {
+  background: rgba(255, 75, 75, 0.779);
+  padding: 0.4rem 20px;
+  border-radius: 6px;
+  margin:0 20px;
+}
+.card-header {
+  background: rgba(199, 223, 255, 0.5);
+  padding: 0.4rem 20px;
+  border-radius: 6px;
+  margin:0 20px;
+}
+
+.card-body {
+  padding: 0.9375rem 20px;
+}
+
+  
